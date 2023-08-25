@@ -13,6 +13,15 @@ const addedTotalAmount = convertSiyng + widtdrawConvert;
 addedinput.innerText = addedTotalAmount;
 
 
+  //  BALNACE
+
+  const totalBalance = document.getElementById('balnce-total');
+  const totalBalValu = totalBalance.innerText;
+  const convetBalnce = parseFloat(totalBalValu);
+
+  const addedTotalBalncce = convetBalnce -widtdrawConvert;
+  totalBalance.innerText = addedTotalBalncce;
+
 
 
 })

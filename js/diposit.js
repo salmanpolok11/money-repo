@@ -13,5 +13,16 @@ document.getElementById('deposit-btn').addEventListener('click', function(){
 
    const addedTotalAmount = convertNumSting + convertSting;
    addedNewAmount.innerText = addedTotalAmount;
+
+  //  BALNACE
+
+   const totalBalance = document.getElementById('balnce-total');
+   const totalBalValu = totalBalance.innerText;
+   const convetBalnce = parseFloat(totalBalValu);
+
+   const addedTotalBalncce = convetBalnce + convertSting;
+   totalBalance.innerText = addedTotalBalncce;
+
+
    
 })
